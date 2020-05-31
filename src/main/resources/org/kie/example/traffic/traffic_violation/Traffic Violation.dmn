@@ -70,14 +70,14 @@
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_00DCEE56-450C-4D26-8CEE-6875BBFD0653">
-          <dmn:text>if Total.Points >= 20 the "Yes" else "No"</dmn:text>
+          <dmn:text>if Total.Points >= 20 then "Yes" else "No"</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
   </dmn:decision>
-  <dmn:decision id="_992C9DD3-99BE-4431-8D00-F1ED3FA01F00" name="fine">
+  <dmn:decision id="_992C9DD3-99BE-4431-8D00-F1ED3FA01F00" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_76D24F60-5D37-4C76-A5AD-91DBA868B6A0" name="fine" typeRef="tFine"/>
+    <dmn:variable id="_76D24F60-5D37-4C76-A5AD-91DBA868B6A0" name="Fine" typeRef="tFine"/>
     <dmn:informationRequirement id="_F53CE236-5F28-4FF0-9766-01B04974490F">
       <dmn:requiredInput href="#_75834DAB-F96A-4C5E-9E5D-D8BF0B476EB4"/>
     </dmn:informationRequirement>
