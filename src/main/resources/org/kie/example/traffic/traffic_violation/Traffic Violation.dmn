@@ -89,7 +89,7 @@
       </dmn:input>
       <dmn:input id="_FD9D13F2-0EFD-4A1D-8512-0855F3084BE1">
         <dmn:inputExpression id="_3361A811-1E78-462B-B323-BEE713208E01" typeRef="number">
-          <dmn:text>Violation.Actual Speed</dmn:text>
+          <dmn:text>Violation.Actual Speed - Violation.Speed Limit</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_12FD9387-A16B-48AA-AEE1-9A80C204EC29" name="Amount" typeRef="number"/>
@@ -161,7 +161,7 @@
           <kie:ComponentWidths dmnElementRef="_51618E31-F497-4BF6-AA11-B828B6F3FCE7">
             <kie:width>50.0</kie:width>
             <kie:width>245.0</kie:width>
-            <kie:width>189.0</kie:width>
+            <kie:width>304.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
