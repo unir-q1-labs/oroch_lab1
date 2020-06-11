@@ -41,13 +41,13 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:inputData id="_FD63857F-14FA-4481-B216-F29E95778AE4" name="Driver">
-    <dmn:extensionElements/>
-    <dmn:variable id="_D55C9CFE-80C4-41AC-B893-9C64A00ADDCC" name="Driver" typeRef="tDriver"/>
-  </dmn:inputData>
   <dmn:inputData id="_75834DAB-F96A-4C5E-9E5D-D8BF0B476EB4" name="Violation">
     <dmn:extensionElements/>
     <dmn:variable id="_645DC538-BE30-486E-A9FD-22BFAE1D9441" name="Violation" typeRef="tViolation"/>
+  </dmn:inputData>
+  <dmn:inputData id="_FD63857F-14FA-4481-B216-F29E95778AE4" name="Driver">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D55C9CFE-80C4-41AC-B893-9C64A00ADDCC" name="Driver" typeRef="tDriver"/>
   </dmn:inputData>
   <dmn:decision id="_7E9F0B2C-BDEC-48BE-A382-2ACDD6F4119E" name="Should the driver be suspended?">
     <dmn:extensionElements/>
@@ -179,15 +179,6 @@
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_FD63857F-14FA-4481-B216-F29E95778AE4" dmnElementRef="_FD63857F-14FA-4481-B216-F29E95778AE4" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="735" y="504" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_75834DAB-F96A-4C5E-9E5D-D8BF0B476EB4" dmnElementRef="_75834DAB-F96A-4C5E-9E5D-D8BF0B476EB4" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -195,6 +186,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="1076" y="497" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_FD63857F-14FA-4481-B216-F29E95778AE4" dmnElementRef="_FD63857F-14FA-4481-B216-F29E95778AE4" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="735" y="504" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_7E9F0B2C-BDEC-48BE-A382-2ACDD6F4119E" dmnElementRef="_7E9F0B2C-BDEC-48BE-A382-2ACDD6F4119E" isCollapsed="false">
